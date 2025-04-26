@@ -1,0 +1,7 @@
+.grid > div {
+    display: flex;
+}
+
+.grid > div > div {
+    padding: 5px;
+}

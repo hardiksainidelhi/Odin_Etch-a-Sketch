@@ -2,8 +2,12 @@ const container = document.querySelector('#container')
 const rowCount = 16
 const colCount = 16
 
+// create base canvas matrix
 function createGrid(rowCount,colCount){
+    
     const gridContainerDiv = document.createElement('div')
+    gridContainerDiv.classList.add('grid')
+    
     for (let i = 0; i < rowCount; i++){
         const parentRowDiv = document.createElement('div')
         for (let j = 0; j < colCount;j++){
